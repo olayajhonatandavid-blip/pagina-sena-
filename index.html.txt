@@ -1,0 +1,343 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CEMTOWERS | Construyendo el futuro que respira</title>
+  <meta name="description" content="CEMTOWERS: cementos verdes e inteligentes con tecnología ECO-MIX que ayudan a la descomposición del CO₂, con alta resistencia y acabados estéticos." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar" id="inicio">
+    <div class="container topbar__inner">
+      <a class="brand" href="#inicio" aria-label="CEMTOWERS">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">
+          <strong>CEMTOWERS</strong>
+          <em>Construyendo el futuro que respira</em>
+        </span>
+      </a>
+
+      <button class="navbtn" id="navBtn" aria-label="Abrir menú">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#quienes">Quiénes somos</a>
+        <a href="#valor">Propuesta de valor</a>
+        <a href="#productos">Productos</a>
+        <a href="#publico">Público objetivo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="pill">ECO-MIX · Cemento verde e inteligente</div>
+          <h1>Construimos ciudades que <span class="grad">respiran</span>.</h1>
+          <p class="lead">
+            Somos una cementera innovadora dedicada a la producción de cementos verdes con componentes
+            autolimpiantes, reciclados e inteligentes que permiten la descomposición del CO₂ y aportan
+            calidad superior para la industria de la construcción.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#productos">Ver productos</a>
+            <a class="btn btn--ghost" href="#valor">Conoce la propuesta</a>
+          </div>
+
+          <div class="kpis">
+            <div class="kpi">
+              <span class="kpi__big">ECO-MIX</span>
+              <span class="kpi__small">Materiales reciclados + propiedades inteligentes</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi__big">CO₂</span>
+              <span class="kpi__small">Contribuye a su descomposición</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi__big">50 kg</span>
+              <span class="kpi__small">Presentación por saco</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__card">
+          <div class="card__title">
+            <h3>Dato sostenible</h3>
+            <span class="badge">Impacto</span>
+          </div>
+          <p class="card__big">
+            Una tonelada de cemento equivale a lo mismo que <strong>170 árboles</strong>.
+          </p>
+          <div class="divider"></div>
+          <p class="muted">
+            Diseño para el SENA: presentación empresarial con enfoque ambiental y técnico.
+          </p>
+        </aside>
+      </div>
+
+      <div class="hero__bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- QUIENES -->
+    <section class="section" id="quienes">
+      <div class="container">
+        <div class="section__head">
+          <h2>¿Quiénes somos?</h2>
+          <p class="muted">
+            Cementera innovadora dedicada a la producción de cementos verdes con enfoque en sostenibilidad urbana.
+          </p>
+        </div>
+
+        <div class="grid2">
+          <article class="card">
+            <h3>Descripción</h3>
+            <p>
+              En nuestros productos utilizamos componentes con propiedades autolimpiantes, elaborados con
+              materiales reciclados e inteligentes que permiten la descomposición de CO₂ y contribuyen a la
+              lucha contra el cambio climático, manteniendo materiales de excelente calidad.
+            </p>
+            <div class="tags">
+              <span class="tag">Innovación</span>
+              <span class="tag">Compromiso ambiental</span>
+              <span class="tag">Calidad técnica</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Misión y visión</h3>
+            <div class="mini">
+              <h4>Misión</h4>
+              <p>
+                Para el 2026 comercializar cementos inteligentes de alta tecnología que contribuyan activamente
+                a la descontaminación del aire, mejoren la sostenibilidad del entorno urbano y optimicen el
+                rendimiento estructural, ofreciendo soluciones responsables con el medio ambiente para la industria
+                de la construcción.
+              </p>
+            </div>
+            <div class="mini">
+              <h4>Visión</h4>
+              <p>
+                Posicionarnos en el mercado Sur Americano con nuestro producto, revolucionando la industria con
+                componentes limpios y eficaces, siendo referentes en innovación y compromiso ambiental hacia un
+                futuro más limpio y saludable.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJETIVO + VALORES -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="grid2">
+          <article class="card">
+            <h3>Objetivo</h3>
+            <p>
+              Atraer inversión y aliados estratégicos que impulsen la producción, comercialización y posicionamiento
+              de nuestro cemento en el mercado.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Valores corporativos</h3>
+            <ul class="list">
+              <li>Innovación con Propósito</li>
+              <li>Compromiso Ambiental</li>
+              <li>Responsabilidad Social</li>
+              <li>Calidad y Excelencia Técnica</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPUESTA -->
+    <section class="section" id="valor">
+      <div class="container">
+        <div class="section__head">
+          <h2>Propuesta de valor</h2>
+          <p class="muted">
+            CEMTOWERS ofrece una fórmula avanzada de cemento que, además de contribuir a la descomposición del dióxido
+            de carbono, garantiza mayor resistencia, fraguado uniforme y durabilidad en cualquier clima. Su color más
+            blanco realza los acabados, brindando obras más firmes, seguras, estéticas y sostenibles.
+          </p>
+        </div>
+
+        <div class="grid3">
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">🫧</div>
+            <h3>Autolimpiante</h3>
+            <p>Componentes con propiedades autolimpiantes para superficies más limpias y duraderas.</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">🏗️</div>
+            <h3>Alta resistencia</h3>
+            <p>Mejor rendimiento estructural, fraguado uniforme y confiabilidad técnica.</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">🌿</div>
+            <h3>Sostenible</h3>
+            <p>Materiales reciclados e inteligentes que apoyan la lucha contra el cambio climático.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="section section--soft" id="productos">
+      <div class="container">
+        <div class="section__head">
+          <h2>Productos</h2>
+          <p class="muted">Presentación de 50 kg · ECO-MIX</p>
+        </div>
+
+        <div class="products">
+          <article class="product">
+            <div class="product__media">
+              <img src="./img/cemento-uso-general.png" alt="Cemento de uso general CEMTOWERS ECO-MIX - presentación 50 kg" />
+            </div>
+            <div class="product__body">
+              <div class="product__top">
+                <h3>Cemento de uso general</h3>
+                <span class="chip">50 kg</span>
+              </div>
+              <p>
+                Ideal para obras de construcción general. Fórmula ECO-MIX con enfoque sostenible, acabados más blancos
+                y desempeño confiable en diferentes condiciones climáticas.
+              </p>
+              <ul class="specs">
+                <li><strong>Tecnología:</strong> ECO-MIX</li>
+                <li><strong>Beneficios:</strong> durabilidad + fraguado uniforme</li>
+                <li><strong>Uso:</strong> construcción general</li>
+              </ul>
+              <button class="btn btn--small" data-toast="Producto seleccionado: Cemento de uso general (demo)">Seleccionar (demo)</button>
+            </div>
+          </article>
+
+          <article class="product">
+            <div class="product__media">
+              <img src="./img/cemento-uso-estructural.png" alt="Cemento de uso estructural CEMTOWERS ECO-MIX - presentación 50 kg" />
+            </div>
+            <div class="product__body">
+              <div class="product__top">
+                <h3>Cemento de uso estructural</h3>
+                <span class="chip chip--dark">50 kg</span>
+              </div>
+              <p>
+                Diseñado para exigencias estructurales. Mayor resistencia, fraguado uniforme y excelente desempeño
+                para obras firmes y seguras, con aporte ambiental al contribuir a la descomposición del CO₂.
+              </p>
+              <ul class="specs">
+                <li><strong>Tecnología:</strong> ECO-MIX</li>
+                <li><strong>Beneficios:</strong> resistencia + seguridad</li>
+                <li><strong>Uso:</strong> aplicaciones estructurales</li>
+              </ul>
+              <button class="btn btn--small" data-toast="Producto seleccionado: Cemento estructural (demo)">Seleccionar (demo)</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+        <div class="noteCard">
+          <h3>Importante</h3>
+          <p>
+            Para que se vean las imágenes: crea una carpeta <strong>img</strong> al lado del HTML y guarda dentro:
+            <strong>cemento-uso-general.png</strong> y <strong>cemento-uso-estructural.png</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICO -->
+    <section class="section" id="publico">
+      <div class="container">
+        <div class="section__head">
+          <h2>Público objetivo</h2>
+          <p class="muted">A quién va dirigido CEMTOWERS.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <h3>Constructoras</h3>
+            <p>Constructoras y empresas de ingeniería que requieren rendimiento estructural y sostenibilidad.</p>
+          </article>
+          <article class="card">
+            <h3>Ferreterías</h3>
+            <p>Ferreterías y distribuidores de materiales de construcción que buscan calidad y diferenciación.</p>
+          </article>
+          <article class="card">
+            <h3>Prefabricadoras</h3>
+            <p>Empresas prefabricadoras interesadas en materiales innovadores con acabados superiores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section--soft" id="contacto">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contáctenos</h2>
+          <p class="muted">Déjanos un mensaje (formulario demo) o contáctanos por los canales oficiales.</p>
+        </div>
+
+        <div class="grid2">
+          <article class="card">
+            <h3>Canales</h3>
+            <ul class="contact">
+              <li><span class="ico">📞</span> <span>3225098967</span></li>
+              <li><span class="ico">✉️</span> <span>Cemtower@gmail.com</span></li>
+              <li><span class="ico">🌐</span> <span>www.centowers.com</span></li>
+              <li><span class="ico">📍</span> <span>Calle 12 CR 210 en Atlántico</span></li>
+            </ul>
+            <div class="divider"></div>
+            <p class="muted">
+              *Puedes cambiar estos datos si tu instructor te pide ajustar ciudad o dirección.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Formulario</h3>
+            <form class="form" id="form">
+              <label>
+                Nombre
+                <input name="nombre" required placeholder="Tu nombre" />
+              </label>
+              <label>
+                Correo
+                <input name="correo" type="email" required placeholder="tu@email.com" />
+              </label>
+              <label>
+                Mensaje
+                <textarea name="mensaje" rows="4" required placeholder="Escribe tu mensaje..."></textarea>
+              </label>
+              <button class="btn" type="submit">Enviar</button>
+              <p class="muted" id="formMsg"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> CEMTOWERS · Proyecto SENA</p>
+      <div class="footer__links">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
